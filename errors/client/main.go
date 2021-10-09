@@ -63,5 +63,5 @@ func callGRPC(name string) {
 		}
 		return
 	}
-	log.Printf("[http] SayHello %s\n", resp.Message)
+	log.Printf("[grpc] SayHello %s\n", resp.Message)
 }
