@@ -3,6 +3,7 @@ module github.com/yscsky/kratos-examples
 go 1.17
 
 require (
+	github.com/envoyproxy/protoc-gen-validate v0.6.1
 	github.com/go-kratos/kratos/v2 v2.0.5
 	google.golang.org/genproto v0.0.0-20210805201207-89edb61ffb67
 	google.golang.org/grpc v1.39.1
