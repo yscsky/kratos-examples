@@ -26,7 +26,7 @@ validate:
 		--go_out=paths=source_relative:. \
 		--go-grpc_out=paths=source_relative:. \
 		--go-http_out=paths=source_relative:. \
-		--validate_out="lang=go:./" \
+		--validate_out=paths=source_relative,lang=go:. \
 		$(VAILD_PROTO_FILES)
 
 help:
