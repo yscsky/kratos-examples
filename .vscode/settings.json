@@ -1,0 +1,8 @@
+{
+    "protoc": {
+        "path": "protoc",
+        "options": [
+            "--proto_path=/Users/shortlog/Code/github/kratos-examples/helloworld/helloworld"
+        ]
+    }
+}
